@@ -1,0 +1,19 @@
+{
+  "name": "guiacod-api",
+  "version": "1.0.0",
+  "description": "Aplicación web para consultar códigos de área y localidades de Argentina a partir de datos oficiales, permitiendo búsquedas rápidas por localidad o característica telefónica.",
+  "keywords": [
+    "nodejs"
+  ],
+  "license": "ISC",
+  "author": "Stefano Gaggero",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
